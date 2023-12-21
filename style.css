@@ -1,0 +1,84 @@
+body, .add-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+body{
+    font-family: monospace;
+    font-size: 20px;
+    height: 100vh; 
+    gap: 40px;
+}
+
+.add{
+    width: 50px;
+    height: 50px;
+   
+}
+button , input{
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.add-item{
+    background-color: lavenderblush;
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+height: 150px;
+}
+.data{
+    display: flex;
+    flex-direction: row;
+}
+
+.lists{
+    display: flex;
+    /* flex-direction: row; */
+    width: 80%;
+    gap: 25%;
+    margin-left: 0%;
+    align-items: flex-start;
+  
+}
+.box{
+    background-color: lavender;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    border-style: dashed;
+
+}
+.list-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: grab;
+    background-color: white; 
+    justify-content: space-between;
+    box-shadow: 2px 2px lightgray ;
+    margin-bottom: 2%;
+}
+.delete{
+    width: 30px;
+    height: 30px;
+    background-color: none;
+    border: none;
+    border-radius: 10px;
+   
+}
+.delete:hover{
+    opacity: 0.5;
+}
+
+.reset{
+    width: 60px;
+    height: 60px;
+    background-color: none;
+    border: none;
+    border-radius: 10px;
+}
